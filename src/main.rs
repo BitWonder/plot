@@ -1,6 +1,7 @@
 use plotters::prelude::*;
 
 fn main() {
+    
   let root_drawing_area = BitMapBackend::new("images/1.png", (600, 400))
     .into_drawing_area();
 
